@@ -1,3 +1,5 @@
+/* Diogo Paris Kraut - GRR20166365 */
+
 #include <stdio.h>
 #include <math.h>
 #include "lcrandom.h"
@@ -16,7 +18,7 @@ int main() {
 		cont[i] = 0;
 
 	for(i = 0; i < TO_GEN; i++)
-		cont[lcrandom() % 100]++;
+		cont[lcrandom() % NUM]++;
 
 	// Econtrar min e max de cont para normalizar
 	max = min = cont[0];

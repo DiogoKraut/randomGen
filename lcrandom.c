@@ -1,3 +1,4 @@
+/* Diogo Paris Kraut - GRR20166365 */
 #include "lcrandom.h"
 
 unsigned long Ag = 40692;
